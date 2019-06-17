@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main-container{
+
+}
+body{
+    background:rgb(0, 0, 0);
+}
+
+.header{
+    height:10vh;
+    width:30%;
+    background:brown;
+    color:white;
+    font-weight: bold;
+    margin-bottom:3vh;
+    text-align: center;
+    padding-top:3vh;
+}
+
+.directions{
+    background:tan;
+    color:green;
+    padding-bottom:10vh;
+    width:50vw;
+    margin-bottom:3vh;
+    padding-top:2vh;
+    padding-left:.5vw;
+}
+
+.paragraph{
+    margin-bottom:2vh;
+}
+
+.buttons-container{
+    width:47vw;
+    display:flex;
+    margin-bottom:3vh;
+}
+
+.button{
+    width:20%;
+    height:8vh;
+    margin-right:20px;
+    background:white;
+}
+.button-1{
+    /* background:red; */
+    
+}
+.button-2{
+    /* background:green; */
+}
+.button-3{
+    /* background:blue; */
+}
+.button-4{
+    /* background:orange; */
+}
+
+.inline-container{
+    display:flex;
+    flex-direction: row;
+    width:31vw;
+    margin-bottom:3vh;
+}
+
+.score-box{
+    width:25vw;
+    background:green;
+    margin-right:1vw;
+    height:15vh;
+    padding-left:.5vw;
+}
+.purple{
+    color:purple;
+    font-size: 3rem;
+}
+.wins-and-losses{
+    background:aqua;
+    color:black;
+    height:15vh;
+    width:20vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.w-and-l-custom{
+    color:purple;
+    font-size: 1.5rem;
+    margin-left:.5vw;
+}
+
+.color-size{
+    background:green;
+    color:white;
+    width:25vw;
+    height:2vh;
+    padding-left:.5vw;
+}
+
+.total-score{
+    background:pink;
+    height: 10vh;
+    width:25vw;
+    margin-top:2vh;
+    padding-left:.5vw;
+    color:purple;
+    font-size: 3rem;
+}
+.appear{
+    display:block;
+}
+
+
